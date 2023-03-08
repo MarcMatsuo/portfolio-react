@@ -4,6 +4,7 @@ import './Habilidades.css'
 import ImagemNome from '../ImagemNome';
 import dominatedSkillsList from '../../listas/dominatedSkillList'
 import knowSkillsList from '../../listas/knowSkillList';
+import Bold from '../Bold';
 
 const Habilidades = () => {
     function handleRenderSkills(lista){
@@ -16,7 +17,7 @@ const Habilidades = () => {
 
     return (
         <div className='habilidades'>
-            <h1 className='h1'>Minhas habilidades</h1>
+            <Bold fontSize="24px">Habilidades</Bold>
             <HabilidadesConjunto fontSize='18px' titulo="Possuo domínio:">
                 {handleRenderSkills(dominatedSkillsList)}
             </HabilidadesConjunto>

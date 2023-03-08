@@ -2,8 +2,9 @@ import React from 'react';
 import Card from '../Card';
 import './Projetos.css'
 
-import projectsList from '../../listas/projectsList';
+import projectsList from '../../listas/projectsList'
 import Link from '../Link';
+import Bold from '../Bold';
 
 const Projetos = () => {
     function handleRenderProjects(lista){
@@ -30,7 +31,7 @@ const Projetos = () => {
             <ul className="lista__projetos">
                {handleRenderProjects(projectsList)}
             </ul>
-            <span style={{fontWeight: 'bold'}}>Veja mais:</span>
+            <Bold fontSize="16px">Veja mais em:</Bold>
             <div>
                 <Link link="https://www.github.com/MarcMatsuo"><i class="fa-brands fa-github" ></i>Github</Link>
             </div>

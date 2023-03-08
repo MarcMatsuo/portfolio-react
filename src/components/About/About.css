@@ -1,0 +1,27 @@
+.about{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    padding: 3em;
+}
+
+.about__content{
+    display: flex;
+    align-items: center;
+
+    gap: 2em;
+}
+
+.about img{
+    width: 200px;
+    border-radius: 50%;
+}
+
+.about__text{
+    text-align: left;
+    padding: 0 0 0 2em;
+
+    border-left: 1px solid white;
+}
