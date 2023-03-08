@@ -1,0 +1,15 @@
+.habilidades__item{
+    display: flex;
+    flex-direction: column;
+    gap: 0.8em;
+    align-items: center;
+}
+
+.habilidades__item img{
+    height: 100px;
+    border-radius: 12px;
+}
+
+.habilidades__item span{
+    font-weight: bold;
+}

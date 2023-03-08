@@ -1,0 +1,15 @@
+.header {
+    background-color: #393E46;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1em;
+}
+
+.header__title{    
+    font-size: 3.7vw;
+    color: white;
+}

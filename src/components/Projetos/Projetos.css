@@ -1,0 +1,17 @@
+.projetos{
+    text-align: center;
+    padding: 5em;
+}
+
+.projetos h2{
+    font-size: 24px;
+    margin-bottom: 1em;
+    font-weight: bold;
+}
+
+.lista__projetos{
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+    flex-wrap: wrap;
+}
