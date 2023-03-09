@@ -17,8 +17,8 @@ const Projetos = () => {
             renderProjects.push(
                 <li>
                     <Card
-                        nome={element.nome}
-                        description={element.description}
+                        nome={t(element.nome)}
+                        description={t(element.description)}
                         img={element.img}
                         linkSite={element.linkSite}
                         linkGit={element.linkGit}> 
@@ -35,7 +35,7 @@ const Projetos = () => {
             <ul className="lista__projetos">
                {handleRenderProjects(projectsList)}
             </ul>
-            <Bold fontSize="16px">Veja mais em:</Bold>
+            <Bold fontSize="16px">{t('Veja mais em:')}</Bold>
             <div>
                 <Link link="https://www.github.com/MarcMatsuo"><i class="fa-brands fa-github" ></i>Github</Link>
             </div>
