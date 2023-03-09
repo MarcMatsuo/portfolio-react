@@ -6,7 +6,11 @@ import projectsList from '../../listas/projectsList'
 import Link from '../Link';
 import Bold from '../Bold';
 
+import { useTranslation } from 'react-i18next';
+
 const Projetos = () => {
+    const { t } = useTranslation()
+
     function handleRenderProjects(lista){
         const renderProjects = []
         lista.forEach((element) => {
@@ -27,7 +31,7 @@ const Projetos = () => {
 
     return (
         <div className='projetos'>
-            <h2>Projetos</h2>
+            <Bold fontSize="24px">{t('Projetos')}</Bold>
             <ul className="lista__projetos">
                {handleRenderProjects(projectsList)}
             </ul>

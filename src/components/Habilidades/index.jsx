@@ -5,6 +5,7 @@ import ImagemNome from '../ImagemNome';
 import dominatedSkillsList from '../../listas/dominatedSkillList'
 import knowSkillsList from '../../listas/knowSkillList';
 import Bold from '../Bold';
+import {useTranslation} from "react-i18next"
 
 const Habilidades = () => {
     function handleRenderSkills(lista){
@@ -15,13 +16,15 @@ const Habilidades = () => {
         return renderSkills;
     }
 
+    const {t} = useTranslation()
+
     return (
         <div className='habilidades'>
-            <Bold fontSize="24px">Habilidades</Bold>
-            <HabilidadesConjunto fontSize='18px' titulo="Possuo domínio:">
+            <Bold fontSize="24px">{t('Habilidades')}</Bold>
+            <HabilidadesConjunto fontSize='18px' titulo={t('Possuo domínio:')}>
                 {handleRenderSkills(dominatedSkillsList)}
             </HabilidadesConjunto>
-            <HabilidadesConjunto fontSize='18px' titulo="Possuo conhecimento:">
+            <HabilidadesConjunto fontSize='18px' titulo={t('Possuo conhecimento:')}>
                 {handleRenderSkills(knowSkillsList)}
             </HabilidadesConjunto>
         </div>
