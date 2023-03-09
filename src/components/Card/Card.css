@@ -15,3 +15,9 @@
     height: 110px;
     width: fit-content;
 }
+
+@media (max-width: 375px){
+    .card{
+        width: fit-content;
+    }
+}

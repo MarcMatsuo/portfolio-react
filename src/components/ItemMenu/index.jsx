@@ -13,7 +13,7 @@ const ItemMenu = (props) => {
 
     return (
         <>
-            <a href="#" onClick={handleItemClick}>{props.children}</a>
+            <a className='link__menu' href="#" onClick={handleItemClick}>{props.children}</a>
         </>
     );
 }

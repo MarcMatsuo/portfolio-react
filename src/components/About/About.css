@@ -5,6 +5,8 @@
     flex-direction: column;
 
     padding: 3em;
+    
+    gap: 1em;
 }
 
 .about__content{
@@ -25,3 +27,34 @@
 
     border-left: 1px solid white;
 }
+
+@media (max-width: 768px){
+    .about{
+        padding: 3em 0;
+    }
+    
+    .about__content{
+        flex-direction: column;
+        padding: 0 5em;
+        gap: 1em;
+    }
+
+    .about__content img{
+        width: 150px;
+    }
+
+    .about__text{
+        padding-top: 1em;
+        border-left: 0;
+        border-top: 1px solid white;
+    }
+}
+
+@media (max-width: 425px){
+    .about__content{
+        padding: 1em;
+    }
+}
+
+
+
