@@ -7,10 +7,10 @@ const MenuHeader = () => {
     const {t} = useTranslation()
     return (
         <div className='menu__header'>
-            <ItemMenu>{t('Início')}</ItemMenu>
-            <ItemMenu>{t('Habilidades')}</ItemMenu>
-            <ItemMenu>{t('Projetos')}</ItemMenu>
-            <ItemMenu>{t('Sobre')}</ItemMenu>
+            <ItemMenu id="inicio">{t('Início')}</ItemMenu>
+            <ItemMenu id="habilidades">{t('Habilidades')}</ItemMenu>
+            <ItemMenu id="projetos">{t('Projetos')}</ItemMenu>
+            <ItemMenu id="sobre">{t('Sobre')}</ItemMenu>
         </div>
     );
 }

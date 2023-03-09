@@ -19,7 +19,7 @@ const Habilidades = () => {
     const {t} = useTranslation()
 
     return (
-        <div className='habilidades'>
+        <div className='habilidades' id='habilidades'>
             <Bold fontSize="24px">{t('Habilidades')}</Bold>
             <HabilidadesConjunto fontSize='18px' titulo={t('Possuo domínio:')}>
                 {handleRenderSkills(dominatedSkillsList)}

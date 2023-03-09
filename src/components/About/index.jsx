@@ -8,7 +8,7 @@ const About = () => {
     const { t } = useTranslation()
 
     return (
-        <div className='about'>
+        <div className='about' id='sobre'>
             <Bold fontSize="24px">{t('Sobre mim')}</Bold>
             <div className='about__content'>
                 <img src={me} alt="Eu" />

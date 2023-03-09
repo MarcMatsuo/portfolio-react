@@ -8,15 +8,17 @@ const resources = {
     "en-US": ENUS
 }
 
+let lgn = localStorage.getItem('lgn');
+
 i18n
     .use(initReactI18next)
     .init({
         debug:true,
         resources,
-        lng: 'en-US',
+        lng: `${lgn}`,
         interpolation: {
             escapeValue: false
-        }
+        },
     })
 
 export default i18n;

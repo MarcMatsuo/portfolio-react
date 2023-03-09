@@ -30,7 +30,7 @@ const Projetos = () => {
     }
 
     return (
-        <div className='projetos'>
+        <div className='projetos' id='projetos'>
             <Bold fontSize="24px">{t('Projetos')}</Bold>
             <ul className="lista__projetos">
                {handleRenderProjects(projectsList)}

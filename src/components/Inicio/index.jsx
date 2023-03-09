@@ -10,7 +10,7 @@ import {useTranslation} from "react-i18next"
 const Inicio = () => {
     const {t} = useTranslation();
     return (
-        <div className='inicio'>
+        <div className='inicio' id='inicio'>
             <div className='inicio__apresentation'>
                 <Bold fontSize="18px">{t('Olá, eu sou')}</Bold>
                 <h1>Marcos Matsuo</h1>
