@@ -1,0 +1,11 @@
+.link__menu{
+    text-decoration: none;
+    color: white;
+    font-size: 1.7em;
+}
+
+@media (max-width: 1024px){
+    .link__menu{
+        font-size: 1.2em;
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "translation": {
+        "Início": "Home",
+        "Habilidades": "Skills",
+        "Projetos": "Projects",
+        "Sobre": "About",
+        "Possuo domínio:": "High level proficiency:",
+        "Possuo conhecimento:": "Satisfactory level proficiency:",
+        "Olá, eu sou": "Hi, i'm",
+        "Desenvolvedor Front End": "Front End developer",
+        "Ver site": "Visit website",
+        "Ver código": "See code",
+        "Numero Secreto": "Secret Number",
+        "Site com interface simples conectado a API de reconhecimento de voz Web Speech API.": "Website with a simple interface connected to the Web Speech API voice recognition API.",
+        "Rick and Morty characters": "Rick and Morty characters",
+        "Página que lista os personagens de Rick and Morty consumindo uma API.": "Page that lists the characters from Rick and Morty consuming an API.",
+        "Alura Books": "Alura Books",
+        "Exemplo de E-commerce responsivo.": "Responsive e-commerce example.",
+        "Meu portfólio": "My portfolio",
+        "Este site que você está vendo (feito em React)": "This website you're seeing (made with React).",
+        "Jogo da Velha em React": "Tic Tac Toe in React",
+        "Jogo da velha simples feito em React": "Simple tic tac toe game made with React.",
+        "Veja mais em:": "See other codes:",
+        "Sobre mim": "About me",
+        "Bem vindo! Meu nome é Marcos Monção Matsuo e sou um desenvolvedor Front-end. Estou envolvido com programação desde os 12 anos de idade e mais recentemente venho estudando Front-end, no qual me interessei instantaneamente.": "Welcome! My name is Marcos Monção Matsuo and I'm a Front-end developer. I've been involved with programming since I was 12 years old, and more recently, I've been studying Front-end, which I was instantly interested in.",
+        "Possuo ampla experiência em desenvolvimento web, possuindo certificado de qualificação profissional obtido durante meu ensino médio com técnico integrado. Além de ter uma quantidade considerável de prática em projetos próprios.": "I have extensive experience in web development, holding a professional qualification certificate obtained during my high school with integrated technical degree. In addition, I have a considerable amount of practice in my own projects.",
+        "Acredito que a constância e a disciplina são os aspectos mais importantes para evoluir e por isso sigo essa filosofia na minha vida, estudo e trabalho, para um dia atingir minha meta de me tornar Full-stack.": "I believe that consistency and discipline are the most important aspects to evolve and that's why I follow this philosophy in my life, study, and work, to one day achieve my goal of becoming a Full-stack developer.",
+        "Agradeço a sua visita e espero vê-lo novamente em breve!": "Thank you for your visit and I hope to see you again soon!",
+        "Contato": "Contact",
+        "Desenvolvido por": "Developed by"
+    }
+}

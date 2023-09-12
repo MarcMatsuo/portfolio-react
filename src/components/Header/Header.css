@@ -1,0 +1,35 @@
+.header {
+    background-color: #393E46;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1em;
+}
+
+.header__title{    
+    font-size: 3.7vw;
+    color: white;
+}
+
+@media (max-width: 1024px){
+    .header__title{
+        font-size: 4.5vw;
+    }
+}
+
+@media (max-width: 768px){
+    .header{
+        justify-content: space-evenly;
+        position: absolute;
+        padding: 1em 0;
+    }
+}
+
+@media (max-width: 425px){
+   .header__title{
+        font-size: 30px !important;
+    }
+}

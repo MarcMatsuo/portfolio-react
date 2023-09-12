@@ -1,0 +1,68 @@
+.inicio{
+    height: 98vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+.inicio__apresentation{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding-left: 5em;
+}
+
+.inicio p:nth-child(1){
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.inicio h1{
+    font-size: 60px;
+    animation: mudaCor 4s linear infinite;
+}
+
+@keyframes mudaCor {
+    0%{
+        color: white;
+    }
+
+    33%{
+        color: purple;
+    }
+
+    66%{
+        color: green;
+    }
+}
+
+.inicio img{
+    width: 30%;
+    padding-top: 4em;
+}
+
+.inicio__ancoras{
+    margin-top: 1em;
+    display: flex;
+    flex-direction: row;
+    gap: 0.3em;  
+}
+
+@media (max-width: 600px){
+    .inicio img{
+        display: none;
+    }
+
+    .inicio__apresentation{
+        padding: 0;
+        text-align: center;
+    }
+
+    .inicio__ancoras{
+        justify-content: center;
+        gap: 1em;
+    }
+}
+

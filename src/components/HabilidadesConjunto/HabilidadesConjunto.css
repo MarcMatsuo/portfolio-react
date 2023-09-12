@@ -1,0 +1,15 @@
+.habilidade__conjunto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 1em;
+    color: white;
+}
+
+.lista__habilidades{
+    display: flex;
+    gap: 3.5em;
+    justify-content: center;
+    flex-wrap: wrap;
+}

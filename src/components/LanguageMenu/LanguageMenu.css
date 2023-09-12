@@ -1,0 +1,38 @@
+.language{
+    position: fixed;
+    z-index: 999;
+    right: 1em;
+}
+
+.language i{
+    font-size: 24px;
+}
+
+.language:hover{
+    cursor: pointer;
+}
+
+.language__list{
+    position: fixed;
+    top: 4em;
+    right: 1em;
+
+    flex-direction: column;
+    gap: 0.5em;
+
+    background-color: #393E46;
+}
+
+@media (max-width: 1024px){
+    .language i{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 768px){
+    .language{
+        position: absolute;
+    }
+}
+
+

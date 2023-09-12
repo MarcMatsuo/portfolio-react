@@ -1,0 +1,26 @@
+.projetos{
+    text-align: center;
+    padding: 5em;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.projetos h2{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.lista__projetos{
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 375px){
+    .projetos{
+        padding: 0;
+    }
+}
+

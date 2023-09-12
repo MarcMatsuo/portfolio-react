@@ -1,0 +1,20 @@
+.inicio__link{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+
+    border: 2px solid white;
+    padding: 1em;
+
+    transition: 0.5s;
+}
+
+.inicio__link:hover{
+    background-color: white;
+    color: black;
+}
+
+.inicio__ancoras .inicio__link:nth-child(1):hover{
+    color: #0a66c2;
+}
