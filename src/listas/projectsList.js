@@ -16,6 +16,13 @@ const projectsList = [
         "linkSite": "https://rick-and-morty-api-six-fawn.vercel.app"
     },
     {
+        "nome": "Pelúcias Matsuo",
+        "description": "E-commerce responsivo feito em React com funcionalidades dinâmicas",
+        "img": require('../img/ursinho.avif'),
+        "linkGit": "https://github.com/MarcMatsuo/pelucias-matsuo",
+        "linkSite": "https://pelucias-matsuo.vercel.app/"
+    },
+    {
         "nome": "Alura Books",
         "description": "Exemplo de E-commerce responsivo.",
         "img": require('../img/Logo.png'),
