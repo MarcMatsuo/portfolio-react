@@ -19,7 +19,7 @@ const Habilidades = () => {
 
     return (
         <div className='habilidades' id='habilidades'>
-            <Bold fontSize="24px">{t('Habilidades')}</Bold>
+            <Bold fontSize="18px">{t('Conhecimentos')}</Bold>
             <HabilidadesConjunto fontSize='18px'>
                 {handleRenderSkills(dominatedSkillsList)}
             </HabilidadesConjunto>

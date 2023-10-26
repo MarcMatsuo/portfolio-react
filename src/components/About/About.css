@@ -1,21 +1,32 @@
 .about{
-    text-align: center;
     display: flex;
     justify-content: center;
-    flex-direction: column;
-    gap: 1em;
+    margin-bottom: 1em;
 }
 
-.about__content{
+.about__informations{
+    width: 80%;
+    padding: 0.5em 2em;
+
     display: flex;
     align-items: center;
 
-    gap: 2em;
+    border: 1px solid #919791;
+    border-radius: 15px;
+    background-color: #1c1818;
+}
+
+.about__img{
+    width: 25%;
+    border-radius: 16px;
 }
 
 .about__text{
-    text-align: justify;
-    padding: 3em;
+    padding: 2em;
+}
+
+.about__list{
+    list-style-type:square;
 }
 
 @media (max-width: 768px){
