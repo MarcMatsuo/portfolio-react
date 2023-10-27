@@ -4,25 +4,42 @@
     margin-bottom: 1em;
 }
 
-.about__informations{
+.about__card{
     width: 80%;
-    padding: 0.5em 2em;
+    padding: 0.5em 2em 2em 2em;
 
     display: flex;
+    flex-direction: column;
     align-items: center;
+
+    gap: 1.5em;
 
     border: 1px solid #919791;
     border-radius: 15px;
     background-color: #1c1818;
 }
 
+.about__informations{
+    display: flex;
+    align-items: center;
+}
+
+.destacar__texto{
+    color: rgb(255, 135, 255);
+}
+
 .about__img{
     width: 25%;
     border-radius: 16px;
+    align-self: flex-start;
+    margin-top: 2.2em;
 }
 
 .about__text{
     padding: 2em;
+    font-size: 18px;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 .about__list{

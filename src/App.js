@@ -1,5 +1,6 @@
 import './App.css';
 import About from './components/About';
+import Experience from './components/Experience';
 import Habilidades from './components/Habilidades';
 import Header from './components/Header';
 import Inicio from './components/Inicio';
@@ -15,7 +16,6 @@ function App() {
       <Header />
       <Inicio />
       <About />
-      <Habilidades />
       <Projetos />
       <footer style={{textAlign: "center", backgroundColor: "#393E46", padding: "1em"}}>
         <Italic>{t('Contato')}: mmatsuo460@gmail.com</Italic>

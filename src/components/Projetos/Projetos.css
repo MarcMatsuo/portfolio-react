@@ -1,6 +1,7 @@
 .projetos{
     text-align: center;
     padding: 5em;
+    padding-top: 2em;
     display: flex;
     flex-direction: column;
     gap: 2em;
